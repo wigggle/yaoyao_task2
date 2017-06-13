@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 500px;
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    padding: 40px;
+    border-radius: 15px;
+}
+.container label{
+    width: 100px;
+    display: inline-block;
+}
+.container input{
+    width: 250px;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0 20px;
+}
+.container .help{
+    font-size: 14px;
+    color: #aaa;
+    margin-left: 125px;
+    visibility: hidden;
+    margin-top: 5px;
+}
+button{
+    width: 100px;
+    height: 35px;
+    background: #56afef;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 550px;
+    color: white;
+}
